@@ -1,0 +1,19 @@
+{
+  "name": "nadal_loco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/resolver-default": "^2.10.3",
+    "parcel": "^2.10.3",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "comic-sites": "^0.0.6"
+  }
+}
