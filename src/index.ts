@@ -5,6 +5,7 @@ import headerStyles from "./components/Header/headerStyles.module.scss";
 import { SwitchButton } from "./components/SwitchButton/SwitchButton";
 import switchStyles from "./components/SwitchButton/switchStyles.module.scss";
 import { XmasImage } from "./components/XmasImage/XmasImage";
+import xmasImageStyles from "./components/XmasImage/XmasImage.module.scss";
 import mainStyles from "./components/mainStyles.module.scss";
 
 initComicFont();
@@ -40,21 +41,24 @@ const switchButtonTree = new SwitchButton(
   switchContainer.element,
   `${switchStyles["switch-button-tree"]} `,
   "div",
-  "Tree"
+  "Tree",
+  `${xmasImageStyles["xmas-image-tree"]}`
 );
 
 const switchButtonPresent = new SwitchButton(
   switchContainer.element,
   `${switchStyles["switch-button-present"]}`,
   "div",
-  "Presents"
+  "Presents",
+  `${xmasImageStyles["xmas-image-presents"]}`
 );
 
 const switchButtonCat = new SwitchButton(
   switchContainer.element,
   `${switchStyles["switch-button-cat"]}`,
   "div",
-  "Cat"
+  "Cat",
+  `${xmasImageStyles["xmas-image-cat"]}`
 );
 
 switchButtonTree.render();
