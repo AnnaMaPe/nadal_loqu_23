@@ -34,29 +34,3 @@ img {
 .main-container {
   padding: 3% 5%;
 }
-
-.main-header {
-  padding-bottom: 2%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 3rem;
-
-  @media (max-width: 750px) {
-    font-size: 2rem;
-  }
-
-  @media (max-width: 550px) {
-    font-size: 1rem;
-  }
-}
-
-.main-title {
-  background-color: #72b7c2;
-  padding: 0.5%;
-  border-radius: 55%;
-}
-
-.header-image {
-  object-fit: contain;
-}
