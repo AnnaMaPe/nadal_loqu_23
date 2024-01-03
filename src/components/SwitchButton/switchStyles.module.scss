@@ -49,11 +49,7 @@ input:checked + .slider:before {
   transform: translateX(46px);
 }
 
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
+.switch-label {
+  font-size: 1rem;
+  text-align: center;
 }

@@ -38,20 +38,23 @@ switchContainer.render();
 
 const switchButtonTree = new SwitchButton(
   switchContainer.element,
-  `${switchStyles["switch"]} switch-button-tree`,
-  "label"
+  `${switchStyles["switch-button-tree"]} `,
+  "div",
+  "Tree"
 );
 
 const switchButtonPresent = new SwitchButton(
   switchContainer.element,
-  `${switchStyles["switch"]} switch-button-present`,
-  "label"
+  `${switchStyles["switch-button-present"]}`,
+  "div",
+  "Presents"
 );
 
 const switchButtonCat = new SwitchButton(
   switchContainer.element,
-  `${switchStyles["switch"]} switch-button-cat`,
-  "label"
+  `${switchStyles["switch-button-cat"]}`,
+  "div",
+  "Cat"
 );
 
 switchButtonTree.render();
