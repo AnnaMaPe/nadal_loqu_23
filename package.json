@@ -15,7 +15,6 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "comic-sites": "^0.0.6",
     "sass": "^1.69.6"
   }
 }

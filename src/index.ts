@@ -1,4 +1,3 @@
-import { initComicFont } from "comic-sites";
 import { Component } from "./components/Component/Component";
 import { Header } from "./components/Header/Header";
 import headerStyles from "./components/Header/headerStyles.module.scss";
@@ -7,8 +6,6 @@ import switchStyles from "./components/SwitchButton/switchStyles.module.scss";
 import { XmasImage } from "./components/XmasImage/XmasImage";
 import xmasImageStyles from "./components/XmasImage/XmasImage.module.scss";
 import mainStyles from "./components/mainStyles.module.scss";
-
-initComicFont();
 
 const mainContainer = document.querySelector(".main-container")!;
 
